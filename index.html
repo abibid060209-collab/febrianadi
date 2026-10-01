@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website informasi resmi SMK Muhammadiyah 1 Sumberrejo. Informasi guru, siswa, jurusan, berita, galeri, pengumuman, dan PPDB.">
+  <meta property="og:title" content="SMK Muhammadiyah 1 Sumberrejo">
+  <meta property="og:description" content="Website informasi sekolah modern dan profesional.">
+  <meta property="og:type" content="website">
+  <title>SMK Muhammadiyah 1 Sumberrejo | Website Informasi Sekolah</title>
+  <link rel="icon" type="image/svg+xml" href="logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-ring"></div><span>Memuat website...</span></div>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#beranda" aria-label="Beranda">
+        <span class="brand-logo"><img src="logo.jpg" alt="Logo SMK Mahasa"></span>
+        <span><b>SMK MAHASA</b><small>Muhammadiyah 1 Sumberrejo</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu"><i class="fa-solid fa-bars"></i></button>
+      <nav id="mainNav">
+        <a class="active" href="#beranda">Beranda</a>
+        <a href="#guru">Data Guru</a>
+        <a href="#siswa">Data Siswa</a>
+        <a href="#jurusan">Jurusan</a>
+        <a href="#pengumuman">Pengumuman</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#berita">Berita</a>
+        <a class="nav-cta" href="#ppdb">PPDB</a>
+        <a class="nav-login" href="#" id="authBtn"><i class="fa-solid fa-user-shield"></i> <span>Login Admin</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> Website Resmi Sekolah</span>
+          <h1>Tempat Tumbuhnya <span>Generasi Unggul</span> Masa Depan.</h1>
+          <p>Menjadi sekolah yang unggul dalam pendidikan, keterampilan, karakter, dan teknologi untuk mempersiapkan generasi masa depan.</p>
+          <div class="hero-actions">
+            <a href="#jurusan" class="btn btn-primary">Jelajahi Sekolah <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#ppdb" class="btn btn-outline">Info PPDB</a>
+          </div>
+          <div class="hero-mini">
+            <div><i class="fa-solid fa-circle-check"></i><span>Pembelajaran berkualitas</span></div>
+            <div><i class="fa-solid fa-circle-check"></i><span>Berbasis teknologi</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-photo">
+            <img src="apel.jpeg" alt="Gedung sekolah">
+            <div class="photo-caption"><span class="pulse"></span> Lingkungan belajar yang nyaman</div>
+          </div>
+          <div class="float-card fc-one"><i class="fa-solid fa-graduation-cap"></i><div><b>800+</b><small>Siswa aktif</small></div></div>
+          <div class="float-card fc-two"><i class="fa-solid fa-award"></i><div><b>20+</b><small>Prestasi</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal"><i class="fa-solid fa-chalkboard-user"></i><strong class="counter" data-target="50">0</strong><span>Guru</span></div>
+        <div class="stat reveal"><i class="fa-solid fa-users"></i><strong class="counter" data-target="800">0</strong><span>Siswa</span></div>
+        <div class="stat reveal"><i class="fa-solid fa-layer-group"></i><strong class="counter" data-target="4">0</strong><span>Jurusan</span></div>
+        <div class="stat reveal"><i class="fa-solid fa-trophy"></i><strong class="counter" data-target="20">0</strong><span>Prestasi</span></div>
+      </div>
+    </section>
+
+    <section class="section welcome">
+      <div class="container welcome-grid">
+        <div class="principal-photo reveal"><img src="dadit.jpg" alt="Foto kepala sekolah"></div>
+        <div class="welcome-copy reveal">
+          <span class="section-kicker">Sambutan Kepala Sekolah</span>
+          <h2>Selamat Datang di <span>SMK Mahasa</span></h2>
+          <p class="lead">“Pendidikan bukan hanya tentang apa yang kita ketahui, tetapi tentang bagaimana ilmu tersebut membentuk karakter dan memberi manfaat.”</p>
+          <p>Selamat datang di website SMK Muhammadiyah 1 Sumberrejo. Semoga website ini menjadi jembatan informasi yang mudah diakses oleh siswa, orang tua, alumni, dan masyarakat.</p>
+          <div class="principal-sign"><b>Dadit Fahrizal, S.T.</b><span>Kepala Sekolah</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="guru">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Tenaga Pendidik</span><h2>Data <span>Guru</span></h2></div><p>Kenali para pendidik yang mendampingi proses belajar siswa.</p></div>
+        <div class="toolbar reveal"><div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="teacherSearch" placeholder="Cari nama guru..."></div><select id="teacherFilter"><option value="all">Semua Mata Pelajaran</option></select></div>
+        <div class="cards-grid" id="teacherGrid"></div>
+        <div class="pagination" id="teacherPagination"></div>
+      </div>
+    </section>
+
+    <section class="section" id="siswa">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Peserta Didik</span><h2>Data <span>Siswa</span></h2></div><p>Data contoh untuk kebutuhan demonstrasi portfolio.</p></div>
+        <div class="toolbar reveal">
+          <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="studentSearch" placeholder="Cari nama siswa..."></div>
+          <select id="classFilter"><option value="all">Semua Kelas</option></select>
+          <select id="majorFilter"><option value="all">Semua Jurusan</option></select>
+          <select id="yearFilter"><option value="all">Semua Angkatan</option></select>
+        </div>
+        <div class="table-wrap reveal"><table><thead><tr><th>Nama</th><th>NIS</th><th>Kelas</th><th>Jurusan</th><th>Tahun Masuk</th></tr></thead><tbody id="studentTable"></tbody></table></div>
+        <div class="pagination" id="studentPagination"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="jurusan">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Program Keahlian</span><h2>Pilih <span>Jurusanmu</span></h2></div><p>Bekali diri dengan kompetensi yang relevan untuk masa depan.</p></div>
+        <div class="major-grid" id="majorGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="pengumuman">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Informasi Terkini</span><h2>Pengumuman <span>Terbaru</span></h2></div></div>
+        <div class="chips reveal" id="announcementFilters"></div>
+        <div class="announcement-grid" id="announcementGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="galeri">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Dokumentasi</span><h2>Galeri <span>Sekolah</span></h2></div></div>
+        <div class="chips reveal" id="galleryFilters"></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="berita">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">Kabar Sekolah</span><h2>Berita <span>Terbaru</span></h2></div></div>
+        <div class="toolbar reveal"><div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="newsSearch" placeholder="Cari berita..."></div><select id="newsFilter"><option value="all">Semua Kategori</option></select></div>
+        <div class="news-grid" id="newsGrid"></div>
+        <div class="pagination" id="newsPagination"></div>
+      </div>
+    </section>
+
+    <section class="ppdb section" id="ppdb">
+      <div class="container">
+        <div class="ppdb-inner reveal">
+          <div class="ppdb-copy"><span class="section-kicker light">Penerimaan Peserta Didik Baru</span><h2>Siap jadi bagian dari <span>keluarga besar</span> SMK Mahasa?</h2><p>Daftar sekarang dan mulai perjalananmu menuju masa depan yang penuh peluang.</p><button class="btn btn-light" id="openPpdb">DAFTAR SEKARANG <i class="fa-solid fa-arrow-right"></i></button></div>
+          <div class="ppdb-info">
+            <div><b>Jadwal</b><ul><li>Pendaftaran: 1 Mei – 30 Juni</li><li>Seleksi: 1 – 5 Juli</li><li>Pengumuman: 8 Juli</li></ul></div>
+            <div><b>Alur Pendaftaran</b><div class="steps"><span>1. Registrasi</span><span>2. Formulir</span><span>3. Verifikasi</span><span>4. Seleksi</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section advantages">
+      <div class="container">
+        <div class="section-head centered reveal"><div><span class="section-kicker">Keunggulan</span><h2>Mengapa Memilih <span>Sekolah Kami?</span></h2></div></div>
+        <div class="adv-grid">
+          <div class="adv-card reveal"><i class="fa-solid fa-user-tie"></i><h3>Guru Kompeten</h3><p>Didampingi tenaga pendidik yang profesional dan peduli pada perkembangan siswa.</p></div>
+          <div class="adv-card reveal"><i class="fa-solid fa-building"></i><h3>Fasilitas Lengkap</h3><p>Ruang belajar dan fasilitas praktik untuk mendukung pembelajaran.</p></div>
+          <div class="adv-card reveal"><i class="fa-solid fa-laptop-code"></i><h3>Berbasis Teknologi</h3><p>Mendorong siswa beradaptasi dengan perkembangan teknologi.</p></div>
+          <div class="adv-card reveal"><i class="fa-solid fa-people-group"></i><h3>Ekstrakurikuler</h3><p>Ruang untuk mengembangkan minat, bakat, kepemimpinan, dan karakter.</p></div>
+          <div class="adv-card reveal"><i class="fa-solid fa-heart"></i><h3>Lingkungan Nyaman</h3><p>Suasana belajar yang positif, aman, dan mendukung kolaborasi.</p></div>
+          <div class="adv-card reveal"><i class="fa-solid fa-briefcase"></i><h3>Siap Dunia Kerja</h3><p>Kompetensi diarahkan agar siswa memiliki bekal untuk studi lanjut maupun kerja.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#beranda"><span class="brand-logo"><img src="logo.jpg" alt="Logo SMK Mahasa"></span><span><b>SMK MAHASA</b><small>Muhammadiyah 1 Sumberrejo</small></span></a><p>Website informasi sekolah untuk mendekatkan sekolah dengan siswa, orang tua, alumni, dan masyarakat.</p></div>
+      <div><h4>Quick Links</h4><a href="#guru">Data Guru</a><a href="#siswa">Data Siswa</a><a href="#jurusan">Jurusan</a><a href="#berita">Berita</a><a href="#ppdb">PPDB</a></div>
+      <div><h4>Kontak</h4><p>Jl. Contoh No. 123, Sumberrejo</p><p>Telp. (0353) 000000</p><p>info@smkmahasa.sch.id</p></div>
+      <div><h4>Ikuti Kami</h4><div class="socials"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div>
+    </div>
+    <div class="copyright">© 2026 SMK Muhammadiyah 1 Sumberrejo. All Rights Reserved.</div>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-box"><button class="modal-close" id="modalClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button><div id="modalContent"></div></div></div>
+  <button class="top-btn" id="topBtn" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="toast" id="toast"><i class="fa-solid fa-circle-check"></i><span></span></div>
+  <script src="script.js"></script>
+</body>
+</html>
