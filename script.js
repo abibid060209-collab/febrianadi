@@ -42,7 +42,7 @@ const newsSeed=[
 ["Siswa SMK Mahasa Raih Prestasi Tingkat Kabupaten","Prestasi","15 Juni 2026","Tim Redaksi","juara.jpeg"],
 ["Semangat Belajar di Lingkungan Sekolah yang Nyaman","Sekolah","10 Juni 2026","Tim Redaksi","mea.jpg"],
 ["Praktik Jaringan Jadi Pengalaman Berharga Siswa TKJ","Teknologi","5 Juni 2026","Admin Website","ipm.jpeg"],
-["Kegiatan Pengembangan Karakter Siswa","Kegiatan","30 Mei 2026","Tim Kesiswaan","photo-1509062522246-3755977927d7"],
+["Kegiatan Pengembangan Karakter Siswa","Kegiatan","30 Mei 2026","Tim Kesiswaan","wisuda.jpg"],
 ["Pembelajaran Berbasis Project di Kelas","Pendidikan","25 Mei 2026","Tim Kurikulum","photo-1531482615713-2afd69097998"],
 ["Ekskul Jadi Ruang Berkarya Siswa","Kegiatan","20 Mei 2026","Tim Redaksi","photo-1517457373958-b7bdd4587205"],
 ["Mengenal Dunia Industri Sejak di Bangku Sekolah","Teknologi","15 Mei 2026","Hubin","photo-1497366754035-f200968a6e72"],
